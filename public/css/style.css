@@ -94,8 +94,11 @@ body{
     height: 0px;
 }
 
-#ewa{
-    height: 100vh;
-    width: 100vw;
+
+
+@media (max-width:768px) {
+    #container{
+        width: 80% !important;
+    }
     
 }
