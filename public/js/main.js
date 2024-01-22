@@ -15,8 +15,21 @@ btncalc[3].addEventListener('click', ()=>{
 
 let btnegal
 btncalc[18].addEventListener('click', ()=>{
-    console.log(inpscreen.value);
     btnegal=inpscreen.value
-    console.log(eval(btnegal));
+    console.log(btnegal.charAt(0));
+    // if (btnegal.charAt(0)=".") {
+    //     // console.log(btnegal);
+    //     // console.log(btnegal.charAt(0));
+    //     inpscreen.value="veullez rentrer un chiffre en premier"
+    // }else{
+
+    
+    
     inpscreen.value=eval(btnegal)
+    
+    
 })
+
+// if (inpscreen.value=".") {
+//     inpscreen.value="veullez rentrer un chiffre en premier"
+// }

@@ -84,8 +84,6 @@ body{
 }
 .btncalc:active{
     transform: translate(0px,3px);
-    /* -webkit-transform: translate(0px,3px); */
-    /* border-bottom: 1px solid; */
     transition: 0.1s;
 }
 
