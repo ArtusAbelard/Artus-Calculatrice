@@ -13,4 +13,10 @@ btncalc[3].addEventListener('click', ()=>{
 
 })
 
-console.log(btncalc[3]);
+let btnegal
+btncalc[18].addEventListener('click', ()=>{
+    console.log(inpscreen.value);
+    btnegal=inpscreen.value
+    console.log(eval(btnegal));
+    inpscreen.value=eval(btnegal)
+})
