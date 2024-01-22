@@ -5,6 +5,10 @@ body{
     align-items: center;
     justify-content: center;
     background-color: darkgrey;
+    background-image: url(../img/_5f4ab761-9537-47d6-ba63-21629d6c6641.jpeg);
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
 }
 #container{
     width: 20%;
@@ -19,6 +23,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 4px;
+    
     /* border: 2px inset #c0c0c0; */
     /* border: 1px solid rgb(90, 90, 90); */
 }
@@ -68,13 +73,20 @@ body{
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    
+    /* transition: 0.5s; */
+
 }
  
 .btncalc:hover {
     transform: rotate(-3deg) skewX(3deg) translate(3px, -3px);
-    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: -20px 15px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+.btncalc:active{
+    transform: translate(0px,3px);
+    /* -webkit-transform: translate(0px,3px); */
+    /* border-bottom: 1px solid; */
+    transition: 0.1s;
 }
 
 /* au cas ou pour rajouter des boutons : */
@@ -84,3 +96,8 @@ body{
     height: 0px;
 }
 
+#ewa{
+    height: 100vh;
+    width: 100vw;
+    
+}
