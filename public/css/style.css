@@ -10,6 +10,9 @@ body{
     background-size: 100%;
     overflow: hidden;
 }
+
+/*! contour de la calculatrice */
+
 #container{
     width: 20%;
     height: 50%;
@@ -28,6 +31,8 @@ body{
     /* border: 1px solid rgb(90, 90, 90); */
 }
 
+/*! div de l ecran  */
+
 #screen{
     width: 80%;
     height: 13%;
@@ -41,6 +46,8 @@ body{
     justify-content: center;
 }
 
+/*! input dans l ecran  */
+
 #inpscreen{
     border: none;
     width: 90%;
@@ -49,6 +56,9 @@ body{
     background: transparent;
     text-align: center;
 }
+
+/*! mise en place des colones et lignes des divs  */
+
 #button{
     width: 80%;
     height: 77%;
@@ -62,6 +72,9 @@ body{
     /* grid-column: 1; */
     
 }
+
+/*! les boutons de la calculatrice */
+
 .btncalc{
     width: 80%;
     height: 80%;
@@ -87,7 +100,7 @@ body{
     transition: 0.1s;
 }
 
-/* au cas ou pour rajouter des boutons : */
+/*! au cas ou pour rajouter des boutons : */
 
 .dispnone{
     background: grey;
@@ -95,6 +108,7 @@ body{
 }
 
 
+/*! responsive */
 
 @media (max-width:768px) {
     #container{
