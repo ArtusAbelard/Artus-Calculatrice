@@ -1,0 +1,81 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+}
+#container{
+    width: 20%;
+    height: 50%;
+    background-color: grey;
+    border-radius: 15px;
+    box-shadow: -1px 0px 5px 5px rgba(181,181,181,0.75);
+    -webkit-box-shadow: -1px 0px 5px 5px rgba(181,181,181,0.75);
+    -moz-box-shadow: -1px 0px 5px 5px rgba(181,181,181,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    /* border: 2px inset #c0c0c0; */
+    /* border: 1px solid rgb(90, 90, 90); */
+}
+#screen{
+    width: 80%;
+    height: 13%;
+    background-color: rgb(184, 184, 184);
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 2px rgba(255,255,255,0.75) inset;
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(255,255,255,0.75) inset;
+    -moz-box-shadow: 1px 1px 5px 2px rgba(255,255,255,0.75) inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inpscreen{
+    border: none;
+    width: 90%;
+    height: 70%;
+    border-radius: 15px;
+    background: transparent;
+    text-align: center;
+}
+#button{
+    width: 80%;
+    height: 77%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around ;
+    align-items: center;
+    padding-left: 7px;
+    /* column-gap: 50px; */
+    /* grid-column: 1; */
+    
+}
+.btncalc{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    
+}
+ 
+.btncalc:hover {
+    transform: rotate(-3deg) skewX(3deg) translate(3px, -3px);
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+  }
+
+/* #lastbtn{
+    
+} */
